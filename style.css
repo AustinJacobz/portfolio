@@ -1,0 +1,55 @@
+.backround-col{
+    backround: black;
+}
+
+.header{
+    padding: 0pc 40px; 
+    padding-top: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+.description{
+    font-size: 20px;
+    text-align: center;
+}
+.linkHeader{
+    font: arial;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.crownWrapper{
+    background-color: rgb(27, 27, 27);
+    padding: 30px;
+}
+.navlink{
+
+}
+.general-info-wrapper{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.general-info{
+    font-size: 32px;
+    font-weight: bold;
+    color: lightskyblue;
+}
+.dotList{
+    font-weight:350;
+    color: rgb(220, 233, 245);
+}
+b{
+    color: lightcyan;
+}
+.skillTitle{
+    font-weight: 300;
+}
+.beegame{
+    width: 200;
+}
+.pBee{
+    margin-top: 50px;
+}
+li{
+    margin: 20px;
+}
