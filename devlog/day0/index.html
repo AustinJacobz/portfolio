@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to my website</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    </head>
+    <body class="bg-black bg-gradient text-white --bs-bg-opacity: 5;">
+        <link href="../../style.css" rel="stylesheet">    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("../navbardblog.html");});</script>
+        <!-- end of nav area -->
+        <div class="container general-info-wrapper">
+          <h1>1 Week of progress</h1>
+          <hr>
+          <h2>The first day I started by Creating a simple space ship in blender.</h2>
+          <figure>
+            <img src="blendership.PNG" class="thumbnail">
+            <figcaption style="text-align: center;">simple boxout of the ship with hero parts more detailed</figcaption>
+          </figure>
+          <h2>Since I plan on having the ship walkable, I made sure to have it large enough for the player to walk around and inverted the normals so the collision mesh would work. In the future if I plan on being able to leave the ship I will make the outside. Or maybe I should do it anyways for promotional art.</h2>
+          <h2>The next part was exporting the ship as fbx, and assigning the materials to things such as the windows and screens. Since the game is still a prototype, I will not be doing any texturing in substance painter/armorpaint</h2>
+          <figure>
+            <img src="import.PNG" class="thumbnail">
+            <figcaption style="text-align: center;">importing the ship into unity</figcaption>
+          </figure>
+          <h2>The next step was to write some simple movement code for the ship and slap a rigidbody on that badboy. I decided to not make the ship kinematic as the asteroids will be and I want the ship to be able to bounce off of them. I am also using a box collider as the calculations are easier for a mobile phone to handle compared to a full mesh collider. I also hopped into audacity and made a sound for the ship engines that will get effected by the velocity.magnitude of the ship</h2>
+          <figure>
+            <img src="script.PNG" class="thumbnail">
+            <figcaption style="text-align: center;">the inspector</figcaption>
+          </figure>
+          <h2> Then for the asteroid spawning I made a simple script that will spawn the asteroids with a random rotation within a defined range. The spinning of the asteroids and the properties of their makeup are kept on the asteroid prefab. I am currently using basic cubes for the models while I work on the logic. After I am finished with the base game-loop I will then model some propper mobile-friendly asteroid models for each type of asteroid.</h2>
+          <figure>
+            <img src="spawner.PNG" class="thumbnail">
+            <figcaption style="text-align: center;">the inspector</figcaption>
+          </figure>
+          <h2>That's all I have to share for week 1. Next I plan on adding basic mining an upgrade shop for more powerful lasers and maybe a save system so your progress will save.</h2>
+          <h2>after I have the basic game systems set up I will allow you to walk around your ship, and maybe even interact with some little fun things I sprinkle around ;)</h2>
+          <figure>
+            <img src="shipgame.PNG" class="thumbnail">
+            <figcaption style="text-align: center;">UI added and tested on mid-quality android phone. So far gets a solid 45-60fps</figcaption>
+          </figure>
+        </div>
+    </body>
+</html>
