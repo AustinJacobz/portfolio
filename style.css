@@ -9,11 +9,14 @@ h2{
     padding: 20px;
     font-weight: 450;
 }
+
 .header{
     padding: 0pc 40px; 
     padding-top: 40px;
-    font-size: 40px;
+    font-size: 400%;
     text-align: center;
+    font-stretch: extra-expanded;
+    font-weight: 600;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff
 }
 .description{
@@ -30,8 +33,14 @@ h2{
     background-color: rgb(0, 0, 0);
     padding: 30px;
 }
-.navlink{
-
+.navbar .brand{
+    margin-left:-20px !important;
+    margin-right:-20px !important;  
+    }
+.navitem{
+    margin: 20px;
+    padding: 20px;
+    border: 20px;
 }
 .general-info-wrapper{
     margin-left: 60px;
@@ -67,8 +76,8 @@ h2{
     color: white;
 }
 .dotList{
-    font-weight:350;
-    color: rgb(220, 233, 245);
+    font-weight:500;
+    color: rgb(155, 155, 155)
     text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0)
 }
 .projectlinks{
