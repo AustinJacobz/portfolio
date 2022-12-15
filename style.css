@@ -46,6 +46,7 @@ b{
 }
 .beegame{
     width: 200;
+    border-radius: 20px;
 }
 .pBee{
     margin-top: 50px;
@@ -58,4 +59,5 @@ li{
     max-width: 500px;
     min-width: 200px;
     flex-shrink: inherit;
+    border-radius: 20px;
 }
